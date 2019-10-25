@@ -7,6 +7,7 @@ import io.reactivex.functions.Predicate;
 
 import java.util.concurrent.TimeUnit;
 
+// These operators don't change the underlaying emissions, they are selectively choosing what to emit
 public class SuppressingOperators {
 
     // operators themselves are observables
